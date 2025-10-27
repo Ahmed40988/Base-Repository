@@ -1,0 +1,11 @@
+﻿global using Mapster;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.IdentityModel.Tokens;
+global using System.Text;
+global using Web.Application.DTOs.AccountDTO;
+global using Web.Application.Interfaces;
+global using Web.Domain.Constants;
+global using Web.Domain.Entites;
+global using Web.Infrastructure.Persistence.Data;

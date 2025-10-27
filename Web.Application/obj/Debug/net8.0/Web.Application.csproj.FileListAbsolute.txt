@@ -1,0 +1,31 @@
+F:\My Projects\Base-Repository\Web.APIs\Web.Application\bin\Debug\net8.0\Web.Application.deps.json
+F:\My Projects\Base-Repository\Web.APIs\Web.Application\bin\Debug\net8.0\Web.Application.dll
+F:\My Projects\Base-Repository\Web.APIs\Web.Application\bin\Debug\net8.0\Web.Application.pdb
+F:\My Projects\Base-Repository\Web.APIs\Web.Application\bin\Debug\net8.0\Web.Domain.dll
+F:\My Projects\Base-Repository\Web.APIs\Web.Application\bin\Debug\net8.0\Web.Domain.pdb
+F:\My Projects\Base-Repository\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.csproj.AssemblyReference.cache
+F:\My Projects\Base-Repository\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\My Projects\Base-Repository\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.AssemblyInfoInputs.cache
+F:\My Projects\Base-Repository\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.AssemblyInfo.cs
+F:\My Projects\Base-Repository\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.csproj.CoreCompileInputs.cache
+F:\My Projects\Base-Repository\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.sourcelink.json
+F:\My Projects\Base-Repository\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Appl.6218106C.Up2Date
+F:\My Projects\Base-Repository\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.dll
+F:\My Projects\Base-Repository\Web.APIs\Web.Application\obj\Debug\net8.0\refint\Web.Application.dll
+F:\My Projects\Base-Repository\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.pdb
+F:\My Projects\Base-Repository\Web.APIs\Web.Application\obj\Debug\net8.0\ref\Web.Application.dll
+D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Application\bin\Debug\net8.0\Web.Application.deps.json
+D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Application\bin\Debug\net8.0\Web.Application.dll
+D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Application\bin\Debug\net8.0\Web.Application.pdb
+D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Application\bin\Debug\net8.0\Web.Domain.dll
+D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Application\bin\Debug\net8.0\Web.Domain.pdb
+D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.csproj.AssemblyReference.cache
+D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.AssemblyInfoInputs.cache
+D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.AssemblyInfo.cs
+D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.csproj.CoreCompileInputs.cache
+D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Appl.6218106C.Up2Date
+D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.dll
+D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Application\obj\Debug\net8.0\refint\Web.Application.dll
+D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.pdb
+D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Application\obj\Debug\net8.0\ref\Web.Application.dll
