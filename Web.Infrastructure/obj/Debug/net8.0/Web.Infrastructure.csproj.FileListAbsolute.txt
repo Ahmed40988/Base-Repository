@@ -33,3 +33,4 @@ D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Infrastru
 D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Infrastructure\obj\Debug\net8.0\refint\Web.Infrastructure.dll
 D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Infrastructure\obj\Debug\net8.0\Web.Infrastructure.pdb
 D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Infrastructure\obj\Debug\net8.0\ref\Web.Infrastructure.dll
+D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Infrastructure\obj\Debug\net8.0\Web.Infrastructure.sourcelink.json

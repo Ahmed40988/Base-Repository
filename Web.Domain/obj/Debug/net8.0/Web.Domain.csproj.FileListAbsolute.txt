@@ -27,3 +27,4 @@ D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Domain\ob
 D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Domain\obj\Debug\net8.0\Web.Domain.pdb
 D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Domain\obj\Debug\net8.0\Web.Domain.genruntimeconfig.cache
 D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Domain\obj\Debug\net8.0\ref\Web.Domain.dll
+D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Domain\obj\Debug\net8.0\Web.Domain.sourcelink.json

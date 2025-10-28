@@ -39,6 +39,20 @@ namespace Web.APIs.Controllers
             return result.IsSuccess ? Ok(result.Value) : result.ToProblem();
         }
 
+        [HttpPost("VerfiyForgetPasswordOTP")]
+        public async Task<ActionResult<Result<string>>> VerfiyForgetPasswordOTP(VerfiyCodeDto request)
+        {
+            var result = await _accountService.VerfiyForgetPasswordOTP(request);
+            return result.IsSuccess ? Ok(result.Value) : result.ToProblem();
+
+        }
+        [HttpPut("ResetPassword")]
+        public async Task<ActionResult> ResetPassword(ResetPasswordDto resetPassword)
+        {
+            var result = await _accountService.ResetPasswordAsync(resetPassword);
+            return result.IsSuccess ? Ok(result.Value) : result.ToProblem();
+        }
+
         [HttpPost("confirm-email")]
         public async Task<IActionResult> ConfirmEmail([FromBody] ConfirmEmailRequest request )
         {
@@ -58,12 +72,7 @@ namespace Web.APIs.Controllers
                : result.ToProblem();
         }
 
-        [HttpPut("ResetPassword")]
-        public async Task<ActionResult> ResetPassword(ResetPasswordDto resetPassword)
-        {
-            var result = await _accountService.ResetPasswordAsync(resetPassword);
-            return result.IsSuccess ? Ok(result.Value) : result.ToProblem();
-        }
+
 
         [HttpPost("refresh")]
         public async Task<IActionResult> RefreshAsync([FromBody] RefreshTokenRequest request )

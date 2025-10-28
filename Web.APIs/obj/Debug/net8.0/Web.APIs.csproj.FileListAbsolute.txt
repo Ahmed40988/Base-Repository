@@ -383,3 +383,4 @@ D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.APIs\bin\
 D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.APIs\bin\Debug\net8.0\MimeKit.dll
 D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.APIs\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.APIs\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.APIs\obj\Debug\net8.0\Web.APIs.sourcelink.json

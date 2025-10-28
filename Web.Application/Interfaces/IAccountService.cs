@@ -8,7 +8,7 @@
 
         Task<Result<TokenDTO>?> GetTokenAsync(LoginDTO loginDto);
 
-
+        Task<Result<string>> VerfiyForgetPasswordOTP(VerfiyCodeDto verify);
 
             Task<Result> RegisterAsync(RegisterDTO registerDTO);
         Task<Result> ConfirmEmailAsync(ConfirmEmailRequest request);

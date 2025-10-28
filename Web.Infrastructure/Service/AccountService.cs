@@ -48,12 +48,40 @@ namespace Web.Infrastructure.Service
                 return Result.Failure<string>(UserErrors.UserNotFound);
 
             var otp = new Random().Next(100000, 999999).ToString();
-            _memoryCache.Set(request.Email, otp, TimeSpan.FromMinutes(60));
+            _memoryCache.Set($"ForgetPassword{request.Email}", otp, TimeSpan.FromMinutes(60));
 
             await _emailSender.SendEmailAsync(request.Email, "App Name", $"Your verification code is: {otp}");
-            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+            return Result.Success("Verification code sent to your email");
+        }
 
-            return Result.Success(token);
+        public async Task<Result<string>> VerfiyForgetPasswordOTP(VerfiyCodeDto verify)
+        {
+            try
+            {
+                var user = await _userManager.FindByEmailAsync(verify.Email);
+                if (user == null)
+                    return Result.Failure<string>(UserErrors.UserNotFound);
+
+                var cachedOtp = _memoryCache.Get($"ForgetPassword{verify.Email}")?.ToString();
+
+                if (string.IsNullOrEmpty(cachedOtp))
+                    return Result.Failure<string>(UserErrors.OTPExpired);
+
+                if (!string.Equals(verify.CodeOTP, cachedOtp, StringComparison.OrdinalIgnoreCase))
+                    return Result.Failure<string>(UserErrors.InvalidOTP);
+
+
+                _memoryCache.Remove($"ForgetPassword{verify.Email}");
+                var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+                return Result.Success(token);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in VerifyOTPAsync: {ex.Message}");
+                return Result.Failure<string>(UserErrors.UnexpectedServerError);
+            }
+
         }
 
         public async Task<Result<TokenDTO>?> GetTokenAsync(LoginDTO loginDto)
@@ -145,6 +173,7 @@ namespace Web.Infrastructure.Service
 
             return Result.Success();
         }
+
         public async Task<Result<bool>> ResetPasswordAsync(ResetPasswordDto resetPassword)
         {
             if (resetPassword.NewPassword != resetPassword.ConfirmNewPassword)

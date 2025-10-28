@@ -148,6 +148,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Web.APIs.Controllers.AccountController",
+    "Method": "VerfiyForgetPasswordOTP",
+    "RelativePath": "api/Account/VerfiyForgetPasswordOTP",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Web.Application.DTOs.AccountDTO.VerfiyCodeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Web.Domain.Constants.Result\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Web.APIs.Controllers.UserController",
     "Method": "DeleteUserByEmail",
     "RelativePath": "api/User/DeleteAccountByEmail",

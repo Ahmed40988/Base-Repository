@@ -29,3 +29,4 @@ D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Applicati
 D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Application\obj\Debug\net8.0\refint\Web.Application.dll
 D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.pdb
 D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Application\obj\Debug\net8.0\ref\Web.Application.dll
+D:\courses\back end.net\API Pojectes\Base-Repository-main\Web.APIs\Web.Application\obj\Debug\net8.0\Web.Application.sourcelink.json
